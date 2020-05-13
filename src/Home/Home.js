@@ -73,30 +73,30 @@ render() {
     </div>
 
       <header className="pictures">
-      <button><button className="solidblocks" alt="solidblocks" onClick={console.log("hi")} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/talented')} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/happiness')} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/beautiful')} /></button>
-      <button><button id="9" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/happiness')} /></button>
-      <button><button id="10" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/beautiful')} /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button id="9" validpath={true} className="pathblocks" alt="pathblocks" /></button>
+      <button><button id="10" validpath={true} className="pathblocks" alt="pathblocks" /></button>
       </header>
 
       <header className="pictures">
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/pure')} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/perfect')} /></button>
-      <button><button className="solidblocks" alt="solidblocks"   onClick={() => history.push('/competent')} /></button>
-      <button><button id="7" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/growth')} /></button>
-      <button><button id="8" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/happiness')} /></button>
-      <button><button className="solidblocks" alt="solidblocks"   onClick={() => history.push('/beautiful')} /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button id="7" validpath={true} className="pathblocks" alt="pathblocks" /></button>
+      <button><button id="8" validpath={true} className="pathblocks" alt="pathblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
       </header>
 
       <header className="pictures">
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/unique')} /></button>
-      <button><button className="solidblocks" alt="solidblocks"   onClick={() => history.push('/weird')} /></button>
-      <button><button id="5" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/nucleus')} /></button>
-      <button><button id="6" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/bestfriend')} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/happiness')} /></button>
-      <button><button className="solidblocks" alt="solidblocks"   onClick={() => history.push('/beautiful')} /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button id="5" validpath={true} className="pathblocks" alt="pathblocks" /></button>
+      <button><button id="6" validpath={true} className="pathblocks" alt="pathblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
       </header>
 
       <header className="directionspace">
@@ -104,27 +104,27 @@ render() {
       </header>
 
       <header className="pictures">
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/unique')} /></button>
-      <button><button className="solidblocks" alt="solidblocks"   onClick={() => history.push('/weird')} /></button>
-      <button><button id="4" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/nucleus')} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/bestfriend')} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/happiness')} /></button>
-      <button><button className="solidblocks" alt="solidblocks"   onClick={() => history.push('/beautiful')} /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button id="4" validpath={true} className="pathblocks" alt="pathblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
       </header>
 
       <header className="directionspace">
-      <button className="directionbuttons"onClick={() => history.push('/weird')} > LEFT </button>
-      <button className="directionbuttons" onClick={() => history.push('/nucleus')} > DOWN </button>
+      <button className="directionbuttons" > LEFT </button>
+      <button className="directionbuttons" > DOWN </button>
       <button className="directionbuttons" alt="directionbuttons" onClick={() => this.goRight(this.number)} > RIGHT </button>
       </header>
 
       <header className="pictures">
-      <button><button style={{backgroundColor: "#ff0000"}} id="1" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/unique')} /></button>
-      <button><button id="2" validpath={true} className="pathblocks" alt="pathblocks" onClick={() => history.push('/weird')} /></button>
+      <button><button style={{backgroundColor: "#ff0000"}} id="1" className="pathblocks" alt="pathblocks" /></button>
+      <button><button id="2" validpath={true} className="pathblocks" alt="pathblocks" /></button>
       <button><button id="3" validpath={true} className="pathblocks" alt="pathblocks" /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/bestfriend')} /></button>
-      <button><button className="solidblocks" alt="solidblocks" onClick={() => history.push('/happiness')} /></button>
-      <button><button className="solidblocks" alt="solidblocks"   onClick={() => history.push('/beautiful')} /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
+      <button><button className="solidblocks" alt="solidblocks" /></button>
       </header>
      
        </div>
